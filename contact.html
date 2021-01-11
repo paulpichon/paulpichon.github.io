@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
 		<title>PICHON.SPACE | Contacto | Desarrollo y Diseño Web</title>
 
-		<link rel="icon" href="views/img/icono.jpg" alt="logo-pichonspace.com">
+		<link rel="icon" href="img/icono.jpg" alt="logo-pichonspace.com">
 		<meta name="description" content="Una página web personal enfocada al desarrollo y diseño web en Tlaxcala y puebla." />
 		<meta name="keywords" content="contacetenos, desarrollo, web, diseño, desing, portafolio,  efectos, animacion, css, javascript, php, tlaxcala, puebla" />
 		<meta name="author" content="Paul Pichon Fabian" />
@@ -13,13 +13,13 @@
 		<!-- bootstrap v4.3 solo en esta página-->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link href="https://fonts.googleapis.com/css?family=Roboto:400,500|Roboto+Mono" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="views/css/normalize.css" />
-		<link rel="stylesheet" type="text/css" href="views/css/demo.css" />
-		<link rel="stylesheet" type="text/css" href="views/css/pieces.css" />
-		<link rel="stylesheet" type="text/css" href="views/css/styles.css" />
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/pieces.css" />
+		<link rel="stylesheet" type="text/css" href="css/styles.css" />
 		<!-- SWEETALERT (deben ir dentro del <head> para que funcione)-->
-		<link rel="stylesheet" href="views/css/sweetalert.css">
-		<script src="views/js/sweetalert.min.js"></script>
+		<link rel="stylesheet" href="css/sweetalert.css">
+		<script src="js/sweetalert.min.js"></script>
 
 
 
@@ -27,7 +27,7 @@
 	<body>
 
 		<main>
-			<div class="pieces" style="background-image: url(views/img/img_inicio/normal.jpg)" data-img-alt="url(views/img/img_inicio/alt.jpg)" data-img-code="url(views/img/img_inicio/code.jpg)"></div>
+			<div class="pieces" style="background-image: url(img/img_inicio/normal.jpg)" data-img-alt="url(img/img_inicio/alt.jpg)" data-img-code="url(img/img_inicio/code.jpg)"></div>
 			<div class="overlay overlay--hidden"></div>
 			<div class="content">
 				<div class="content__inner">
@@ -76,12 +76,6 @@
 											<button type="submit" class="btn my_btn" data-glitch >Enviar</button>
 											</form>
 
-											<?php
-
-													$mensaje = new MensajesController();
-													$mensaje -> registroMensajesController();
-
-											?>
 								</div>
 							</div>
 						</div>
@@ -90,22 +84,22 @@
 						<div class="switch mode mode--design">
 						</div>
 						<div class="link-wrap">
-							<a class="contact-link mode mode--design" href="inicio">Regresar</a>
+							<a class="contact-link mode mode--design" href="index.html">Regresar</a>
 						</div>
 					</div>
 
 				</div><!-- /content__inner-->
 			</div><!-- /content -->
 			<div class="loading"></div>
-			<!-- <img class="hidden" src="views/img/img_inicio/code.jpg"/>
-			<img class="hidden" src="views/img/img_inicio/alt.jpg"/> -->
+			<!-- <img class="hidden" src="img/img_inicio/code.jpg"/>
+			<img class="hidden" src="img/img_inicio/alt.jpg"/> -->
 		</main>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-		<script src="views/js/imagesloaded.pkgd.min.js"></script>
-		<script src="views/js/anime.min.js"></script>
-		<script src="views/js/main.js"></script>
-		<script src="views/js/validarFormulario.js"></script>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/anime.min.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/validarFormulario.js"></script>
 
 	</body>
 </html>

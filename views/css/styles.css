@@ -1,0 +1,57 @@
+div.contenedor_uno{
+  /* background-color: rgba(255,255,255,.3); */
+
+}
+.no_borders{
+  font-size: 1rem;
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 100px;
+  padding: 10px;
+  background-color: transparent;
+  border: 0;
+  border-bottom: solid 1px transparent;
+  outline: 0;
+  color: #6DCC9E;
+}
+.no_borders:hover{
+  border-bottom: solid 1px white;
+}
+/* para cambiar el color de los input de los formuarios */
+::-webkit-input-placeholder {
+  color: #6CCB9F;
+  font-weight: bold;
+}
+button.my_btn{
+  background-color: rgba(0,0,0,.6);
+  border: 1px solid white;
+  color: white;
+}
+button.my_btn:hover{
+  background-color: rgba(255,255,255,.6);
+  border: 1px solid black;
+  color: black;
+}
+/* estilos singles */
+a.btn_visitar{
+  background-color: #57A4F5;
+  padding: 10px 30px;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all .5s ease-in-out;
+}
+a.btn_visitar:hover{
+  background-color: #475886;
+  text-decoration: line-through;
+}
+.form_background{
+  background-color: rgba(0,0,0,.8);
+  padding: 5px;
+}
+@media only screen and (max-width: 768px){
+    .form_background{
+      background-color: transparent;
+      padding: 0;
+    }
+}

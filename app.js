@@ -23,7 +23,7 @@ hbs.registerPartials(__dirname + '/views/partials');
 //uso de middleware .use()
 //hacemos publico la carpeta 'public', esto hace que se muestre la pagina web dentro de la carpeta public
 //si tuvueramos la capreta en un path diferente lo debemos especificar
-app.use( express.static('public') );//index.html
+app.use( express.static('public') );
 
 
 //Index
